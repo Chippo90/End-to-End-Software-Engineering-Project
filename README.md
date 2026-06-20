@@ -6,7 +6,7 @@ This project is a fully functional Solitaire game developed in Java, featuring a
 
 The primary goal of this project was to build a and maintainable Solitaire application by leveraging software architecture. The game allows a user to play a standard game of Klondike Solitaire and includes a "Hint" feature powered by a heuristic-based AI to suggest optimal moves.
 
-**System Architecture******
+**System Architecture**
 
 To ensure a clean separation of concerns, the project is built using the Model-View-Controller (MVC) architectural pattern [1].
 
@@ -26,3 +26,14 @@ To ensure a clean separation of concerns, the project is built using the Model-V
 1.  Compile all `.java` files from the `src` directory.
 2.  Run the `Main.java` file to launch the application.
 3.  The game window will appear, and a new game will be dealt automatically.
+
+**Future Work**
+
+*   Advanced AI: Implementing a search-based algorithm that can look multiple moves ahead to provide long-term strategic advice.
+*   Undo/Redo Functionality: Adding a feature to undo moves would greatly improve player experience.
+*   Timer & Score: Adding timer along with scoring board, since both are measuring the best scores.
+*   UI/UX Enhancements: Improving the visual assets with high-resolution card graphics and adding smooth animations for card movements.
+
+**License**
+* Name: Chehab Hany
+* University: Gisma University of Applied Sciences
