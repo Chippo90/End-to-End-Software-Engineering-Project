@@ -8,8 +8,6 @@ The primary goal of this project was to build a and maintainable Solitaire appli
 
 **System Architecture**
 
-To ensure a clean separation of concerns, the project is built using the Model-View-Controller (MVC) architectural pattern [1].
-
 *   **Presentation Layer “UI”**: Presenting the game state to the user and capturing the input. It has no control over the game rules. 
 *   **Logic Layer “Game Engine”**: Acting as the brain of the application. It contains the core game logic, processes command from the Presentation Layer and manipulates the Data Layer according to the game's rules
 *   **Data Layer “Foundation”)**: Representing the data structures and rules. It defines what a card is, what a deck is, and the rules for placing a card in piles. 
